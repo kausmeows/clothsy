@@ -1,10 +1,5 @@
----
-title: FastAPI
-description: A FastAPI server
-tags:
-  - fastapi
-  - python
----
+## [Working Demo](https://youtu.be/LZ-mWgL5qx4)
+[![Watch the video](assets/demo.png)](https://youtu.be/LZ-mWgL5qx4)
 
 ## Data Collection
 To scrape quality clothing data containing proper description and url for the product I used `Apify's` [Amazon Product Scraper](https://blog.apify.com/step-by-step-guide-to-scraping-amazon/#step-1-go-to-amazon-product-scraper-on-apify-store)
@@ -60,4 +55,10 @@ This will return
 
 ## Deployment
 I used `Docker` to containerize the API. on `Heroku`. Was trying to use Google Cloud Functions to deploy the endpoint but faced some issues:-
-- Wasn't able to load the `embeddings.npy` file from cloud storage into the cloud function
+- Wasn't able to load the `embeddings.npy` file from cloud storage into the cloud function. Some help on this would be appreciated.
+
+## Running Locally
+- Clone the repo
+- Make a virtual environment
+- Install the dependencies `pip install -r requirements.txt`
+- Run the server `python main.py`
