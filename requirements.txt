@@ -1,0 +1,8 @@
+pandas
+nltk
+transformers
+sentence-transformers
+fastapi
+numpy
+uvicorn
+gunicorn==19.9.0
