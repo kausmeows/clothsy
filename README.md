@@ -54,7 +54,7 @@ This will return
 ```
 
 ## Deployment
-I used `Docker` to containerize the API. on `Heroku`. Was trying to use Google Cloud Functions to deploy the endpoint but faced some issues:-
+I used `Docker` to containerize the API. Was trying to use Google Cloud Functions to deploy the endpoint but faced some issues since it was my first time using GCP:-
 - Wasn't able to load the `embeddings.npy` file from cloud storage into the cloud function. Some help on this would be appreciated.
 
 ## Running Locally
