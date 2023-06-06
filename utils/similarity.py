@@ -7,7 +7,7 @@ clothing_data = pd.read_csv('data/clothing_data_preprocessed.csv')
 model = SentenceTransformer('model')
 embeddings = np.load('data/embeddings.npy')
 
-def get_similar_items(query, embeddings, clothing_data, top_k=5):
+def get_similar_items(query, embeddings, clothing_data, top_k):
     # Encode the query text
     query_embedding = model.encode([query], convert_to_tensor=True)
     # Compute similarity scores
