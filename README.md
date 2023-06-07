@@ -1,3 +1,14 @@
+---
+title: Clothsy
+emoji: 👕
+colorFrom: purple
+colorTo: purple
+sdk: gradio
+sdk_version: 3.24.1
+app_file: main.py
+pinned: false
+---
+
 ## [Working Demo](https://youtu.be/LZ-mWgL5qx4)
 [![Watch the video](assets/demo.png)](https://youtu.be/LZ-mWgL5qx4)
 
