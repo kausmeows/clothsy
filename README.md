@@ -9,6 +9,9 @@ app_file: main.py
 pinned: false
 ---
 
+## [HF Space Demo](https://huggingface.co/spaces/kausmos/clothsy)
+![HF](assets/hf_space.png)
+
 ## [Working Demo](https://youtu.be/LZ-mWgL5qx4)
 [![Watch the video](assets/demo.png)](https://youtu.be/LZ-mWgL5qx4)
 

@@ -3,7 +3,6 @@ from sentence_transformers import SentenceTransformer
 from utils.similarity import get_similar_items
 import numpy as np
 import pandas as pd
-import markdown
 import random
 
 # Create title, description, and article strings
